@@ -38,7 +38,7 @@ class App extends Component {
 		<ActionCable
 			channel={{
 				channel: 'UserChannel',
-				user_id: this.props.currentUser.id
+				user_id: (this.props && this.props.currentUser) ? this.props.currentUser.id : ''
 			}}
 			onReceived={this.handleSocketResponse}
 		/>
