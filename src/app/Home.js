@@ -72,8 +72,8 @@ class Home extends Component {
 			<div>
 				<Navbar history={this.props.history} />
 				<h1 id="title">
-					Welcome, {this.props.currentUser.firstname}{' '}
-					{this.props.currentUser.lastname}
+					Welcome, {this.props.currentUser ? this.props.currentUser.firstname : ''}{' '}
+					{this.props.currentUser ? this.props.currentUser.lastname : ''}
 				</h1>
 				<br />
 				{this.state.loaded ? (
