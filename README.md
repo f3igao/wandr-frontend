@@ -60,4 +60,4 @@ git push origin my-new-feature
 
 ## Author
 
-* Fei Hafferkamp - [Github Profile](https://github.com/feihafferkamp)
+* Fei - [Github Profile](https://github.com/f3igao)
